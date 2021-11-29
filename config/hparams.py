@@ -1,11 +1,11 @@
 import yaml
 
-dataset = "LibriTTS"  # [LibriTTS, VCTK, LJSpeech]
-mfa_path = "./MFA"
+dataset = "ChenNing"  # [LibriTTS, VCTK, LJSpeech]
+mfa_path = "/content/drive/Shareddrives/Lab/montreal-forced-aligner"
 
 ### Text ###
 # g2p_en
-text_cleaners = ["english_cleaners"]
+text_cleaners = []
 
 
 ### FastSpeech 2 ###
